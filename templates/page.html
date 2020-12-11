@@ -8,12 +8,14 @@
 
 {% block page_content %}
 {% include 'include/sidebar.html' %}
-<h1>
-    Welcome to FastAPI Starter.
-</h1>
+<main role="main" class="container">
+    <div class="row">
+        {{data.text|safe}}
+    </div>
+</main><!-- /.container -->
 
 {{data.page}}
-{% include 'include/footer.html' %}
+
 {% endblock %}
 
 {% block scripts %}

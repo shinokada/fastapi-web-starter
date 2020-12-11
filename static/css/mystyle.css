@@ -1,0 +1,35 @@
+body {
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    padding-bottom: 100px; 
+    box-sizing: border-box;
+}
+
+.wrapper{
+    max-width: 960px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    padding-top:50px;
+}
+
+.responsive{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content{
+    position: relative;
+}
+
+.active {
+    background-color: rgb(202, 249, 255);
+    color: white;
+  }

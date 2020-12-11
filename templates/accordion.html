@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+{% set active_page = "accordion" %}
+
+{% block title %}Accordion{% endblock %}
+
+{% block head %}
+{{ super() }}
+
+
+{% endblock %}
+
+{% block page_content %}
+<h1 class="cap">Accordion</h1>
+
+{% if tag %}
+<h2>You selected {{tag}}</h2>
+{% endif %}
+
+{% set flora = ['flower','tree','fruit','garden'] %}
+{% set fauna = [ 'cat', 'dog', 'bird', 'fish'] %}
+
+<form method="post" id="category">
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                        aria-controls="collapseOne">
+                        FLORA
+                    </button>
+
+                </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse 
+            {% for  name in flora %}
+            {% if name==tag %}
+            show 
+            {% endif %}
+            {% endfor %}
+            " aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    {% for name in flora %}
+                    {% if tag == name %}
+                    {% set checked="checked" %}
+                    {% endif %}
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="tag" id="radio-{{name}}" value="{{name}}"
+                            {{ checked }}>
+                        <label class="form-check-label" for="radio-{{name}}">
+                            {{ name | capitalize}}
+                        </label>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-controls="collapseTwo">
+                        FAUNA
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseTwo" class="collapse
+            {% for  name in fauna %}
+            {% if name==tag %}
+            show 
+            {% endif %}
+            {% endfor %}
+            " aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    {% for name in fauna %}
+                    {% if tag == name %}
+                    {% set checked="checked" %}
+                    {% endif %}
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="tag" id="radio-{{name}}" value="{{name}}"
+                            {{ checked }}>
+                        <label class="form-check-label" for="radio-{{name}}">
+                            {{ name | capitalize}}
+                        </label>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="submit" class="submit btn btn-primary btn-xl">Submit</button>
+</form>
+
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+
+
+{% endblock %}

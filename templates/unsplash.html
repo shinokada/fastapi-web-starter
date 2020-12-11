@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% set active_page = "unsplash" %}
+
+{% block title %}Unsplash Finder{% endblock %}
+
+{% block head %}
+{{ super() }}
+
+
+{% endblock %}
+
+{% block page_content %}
+<h1 class="cap">Unsplash Finder</h1>
+
+<img class="responsive" src="https://source.unsplash.com/960x800/?flower">
+<p>Source</p>
+
+<img class="responsive" src="https://source.unsplash.com/collection/827743/960x800">
+<p>Source</p>
+
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+
+
+{% endblock %}
