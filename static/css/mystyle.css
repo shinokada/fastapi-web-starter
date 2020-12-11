@@ -26,10 +26,10 @@ footer {
 }
 
 #content{
-    position: relative;
+    /* position: relative; */
 }
 
 .active {
-    background-color: rgb(202, 249, 255);
-    color: white;
+    /* background-color: rgb(202, 249, 255); */
+    /* color: white; */
   }
