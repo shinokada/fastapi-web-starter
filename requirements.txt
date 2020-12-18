@@ -6,3 +6,4 @@ aiofiles==0.6.0
 python-multipart==0.0.5
 jinja2==2.11.2
 Markdown==3.3.3
+pytest==6.2.1

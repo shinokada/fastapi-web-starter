@@ -2,7 +2,6 @@
 .DS_Store
 /data
 /tmp
-!/app/lib/*
 
 
 # Byte-compiled / optimized / DLL files
@@ -21,7 +20,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-# lib/
+lib/
 lib64/
 parts/
 sdist/
