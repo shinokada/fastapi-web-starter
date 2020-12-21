@@ -1,8 +1,10 @@
 # Fastapi Web Starter
 
-You can find the Medium article at [https://shinichiokada.medium.com/](https://shinichiokada.medium.com/).
+Please read the Medium article at [https://shinichiokada.medium.com/](https://shinichiokada.medium.com/).
 
-This includes all the file ready to deploy to Heroku. 
+[Please sign up for more free resources.](https://mailchi.mp/ae9891ba897a/codewithshin)
+
+This repo includes all the file and it is ready to deploy to Heroku. 
 
 - .env
 - .gitignore
@@ -20,7 +22,7 @@ This includes all the file ready to deploy to Heroku.
 # unzip
 $ unzip fastapi-web-starter.zip
 # change the directory
-$ cd fastapi-web-starter.zip
+$ cd fastapi-web-starter
 # install packages
 $ pip install -r requirements.txt
 # start the server
@@ -31,7 +33,9 @@ Visit http://127.0.0.1:8080/.
 
 ![Starting](./images/image-1.png)
 
+## Test
 
-
-
-
+```
+$ cd fastapi-web-starter
+$ pytest -v
+```
