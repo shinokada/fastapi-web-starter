@@ -19,8 +19,10 @@ This repo includes all the file and it is ready to deploy to Heroku.
 ## Installation
 
 ```
-# unzip
+$ git clone git@github.com:shinokada/fastapi-web-starter.git
+# Or using downloaded zip file 
 $ unzip fastapi-web-starter.zip
+
 # change the directory
 $ cd fastapi-web-starter
 # install packages
