@@ -1,6 +1,6 @@
 # Fastapi Web Starter
 
-Please read the Medium article at [https://shinichiokada.medium.com/](https://shinichiokada.medium.com/).
+Please read the Medium article at [https://shinichiokada.medium.com/](https://shinichiokada.medium.com/) ([Building a Website Starter with FastAPI](https://levelup.gitconnected.com/building-a-website-starter-with-fastapi-92d077092864)).
 
 [Please sign up for more free resources.](https://mailchi.mp/ae9891ba897a/codewithshin)
 
