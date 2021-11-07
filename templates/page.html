@@ -10,7 +10,9 @@
 {% include 'include/sidebar.html' %}
 <main role="main" class="container">
     <div class="row">
-        {{data.text|safe}}
+        <div class="col">
+            {{data.text|safe}}
+        </div>
     </div>
 </main><!-- /.container -->
 

@@ -1,9 +1,9 @@
-requests==2.25.0
-fastapi==0.62.0
-uvicorn==0.12.3
-python-dotenv==0.15.0
-aiofiles==0.6.0
+requests==2.26.0
+fastapi==0.70.0
+uvicorn==0.15.0
+python-dotenv==0.19.1
+aiofiles==0.7.0
 python-multipart==0.0.5
-jinja2==2.11.3
-Markdown==3.3.3
-pytest==6.2.1
+jinja2==3.0.2
+Markdown==3.3.4
+pytest==6.2.5

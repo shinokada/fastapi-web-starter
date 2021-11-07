@@ -8,6 +8,7 @@ Please read the Medium article at [https://shinichiokada.medium.com/](https://sh
 
 A static simple website ready to deploy.
 This repo includes all the file and it is ready to deploy to Heroku.
+[How to Deploy a FastAPI App on Heroku for Free](https://towardsdatascience.com/how-to-deploy-your-fastapi-app-on-heroku-for-free-8d4271a4ab9)
 
 - .env
 - .gitignore
@@ -21,7 +22,20 @@ This repo includes all the file and it is ready to deploy to Heroku.
 
 ## Requirement
 
-See requirements.txt.
+See requirements.txt for updates.
+
+```sh
+- requests==2.26.0
+- fastapi==0.70.0
+- uvicorn==0.15.0
+- python-dotenv==0.19.1
+- aiofiles==0.7.0
+- python-multipart==0.0.5
+- jinja2==3.0.2
+- Markdown==3.3.4
+- pytest==6.2.5
+- Pillow==8.4.0
+```
 
 ## Installation & Usage
 
