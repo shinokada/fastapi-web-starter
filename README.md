@@ -1,8 +1,8 @@
 # Fastapi Web Starter
 
-Please read the Medium article at [https://shinichiokada.medium.com/](https://shinichiokada.medium.com/) ([Building a Website Starter with FastAPI](https://levelup.gitconnected.com/building-a-website-starter-with-fastapi-92d077092864)).
+Updated: 2022-01-18
 
-[Please sign up for more free resources.](https://mailchi.mp/ae9891ba897a/codewithshin)
+[https://shinichiokada.medium.com/](https://shinichiokada.medium.com/) ([Building a Website Starter with FastAPI](https://levelup.gitconnected.com/building-a-website-starter-with-fastapi-92d077092864)).
 
 ## Overview
 
@@ -25,26 +25,21 @@ This repo includes all the file and it is ready to deploy to Heroku.
 See requirements.txt for updates.
 
 ```sh
-- requests==2.26.0
-- fastapi==0.70.0
-- uvicorn==0.15.0
-- python-dotenv==0.19.1
-- aiofiles==0.7.0
-- python-multipart==0.0.5
-- jinja2==3.0.2
-- Markdown==3.3.4
-- pytest==6.2.5
-- Pillow==8.4.0
+requests==2.27.1
+fastapi==0.72.0
+uvicorn==0.17.0
+python-dotenv==0.19.2
+aiofiles==0.8.0
+python-multipart==0.0.5
+jinja2==3.0.3
+Markdown==3.3.6
+pytest==6.2.5
 ```
 
 ## Installation & Usage
 
 ```bash
 $ git clone git@github.com:shinokada/fastapi-web-starter.git
-# Or using downloaded zip file 
-$ unzip fastapi-web-starter.zip
-
-# change the directory
 $ cd fastapi-web-starter
 # install packages
 $ pip install -r requirements.txt

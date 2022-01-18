@@ -123,6 +123,7 @@ a:focus {
     padding: 10px;
     font-size: 1.1em;
     display: block;
+   
 }
 
 #sidebar ul li a:hover {
@@ -130,28 +131,12 @@ a:focus {
     background: #fff;
 }
 
-#sidebar ul li.active>a,
-a[aria-expanded="true"] {
-    color: #fff;
-    background: #6d7fcc;
+#sidebar .dropdown-menu{
+    width: 95%;
 }
 
 a[data-toggle="collapse"] {
     position: relative;
-}
-
-.dropdown-toggle::after {
-    display: block;
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-}
-
-ul ul a {
-    font-size: 0.9em !important;
-    padding-left: 30px !important;
-    background: #6d7fcc;
 }
 
 ul.CTAs {
@@ -164,11 +149,6 @@ ul.CTAs a {
     display: block;
     border-radius: 5px;
     margin-bottom: 5px;
-}
-
-a.download {
-    background: #fff;
-    color: #7386D5;
 }
 
 a.article,
@@ -189,4 +169,18 @@ a.article:hover {
     position: absolute;
     top: 0;
     right: 0;
+}
+
+#sidebarCollapse span{
+    color: #fff;
+}
+
+#sidebarCollapse i{
+    color: #fff;
+}
+
+/* Nav */
+.navbar-nav {
+    justify-content: end;
+    width:100%;
 }
